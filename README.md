@@ -5,4 +5,9 @@ Problemas de Coding Dojo
 
 Teste de commit do Marcelo
 
-Outro commit do Marcelo com merge.
+Outro teste do commit do Marcelo depois do merge.
+
+Teste de commit do Felipe
+
+Teste do commit da Pamela :)
+
