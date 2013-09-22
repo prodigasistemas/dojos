@@ -18,3 +18,5 @@ agora funfou
 teste comit
 
 \o/
+
+teste comandos
