@@ -1,20 +1,8 @@
 Coding Dojos
 =====
 
-Problemas de Coding Dojo
+Problemas de Coding Dojo realizados pela equipe da Pródiga Sistemas.
 
-Teste de commit do Marcelo
-
-Outro teste do commit do Marcelo depois do merge.
-
-Daniel - testando commit
-
-Teste de commit do Felipe
-
-Teste do commit da Pamela :)
-
-agora funfou
-
-teste comit
-
-\o/
+Já foram realizados os seguintes problemas:
+- Contador de Notas
+- FizzBuzz
