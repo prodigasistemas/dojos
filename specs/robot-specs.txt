@@ -1,0 +1,44 @@
+#1
+Dado um robô recém-chegado
+Quando pousa na superfície
+Então o robô deve informar a sua coordenada inicial no formato (x,y)
+
+#2
+Dado um robô parado
+Quando recebe o comando MOV com os valores de direção e distância
+Então o robô deve se movimentar e informar a sua coordenada quando finalizar o movimento
+* Exemplo:
+R(0,0)
+-> MOV(N2)
+=> R(0,2)
+R(0,2)
+
+#3
+Dado um robô parado
+Quando recebe o comando BMOV com vários valores de direção e distância
+Então o robô deve se movimentar e ir informando as coordenadas de cada movimento
+* Exemplo: 
+R(0,0)
+-> BMOV(N2,L1,N2,S2,O1)
+=> R(0,2)
+=> R(1,2)
+=> R(1,4)
+=> R(1,2)
+=> R(0,2)
+
+R(0,2)
+#4
+Dado um robô parado
+Quando recebe o comando RET com a quantidade de movimentos
+Então o robô deve retornar os movimentos feitos de acordo com a quantidade passada
+* Exemplo: 
+R(0,0)
+-> BMOV(N2,L1,N2)
+=> R(0,2)
+=> R(1,2)
+=> R(1,4)
+R(1,4)
+-> RET(2)
+=> R(1,2)
+=> R(0,2)
+R(0,2)
