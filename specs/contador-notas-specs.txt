@@ -1,0 +1,30 @@
+Caixa Eletrônico
+
+Desenvolva um programa que simule a entrega de notas quando um cliente efetuar um saque em um caixa eletrônico. Os requisitos básicos são os seguintes:
+
+- Entregar o menor número de notas;
+- É possível sacar o valor solicitado com as notas disponíveis;
+- Saldo do cliente infinito;
+- Quantidade de notas infinito (pode-se colocar um valor finito de cédulas para aumentar a dificuldade do problema);
+
+=> Notas disponíveis de R$ 100,00; R$ 50,00; R$ 20,00 e R$ 10,00
+
+#1
+Dado um correntista
+Quando solicitar o saque no valor de R$30,00
+Então o caixa deve entregar 1 nota de R$20,00 e 1 nota de R$10,00
+
+#2
+Dado um correntista
+Quando solicitar o saque no valor de R$80,00
+Então o caixa deve entregar 1 nota de R$50,00 1 nota de R$20,00 e 1 nota de R$10,00
+
+#3
+Dado um correntista
+Quando solicitar o saque no valor de R$100,00
+Então o caixa deve entregar 1 nota de R$100,00
+
+#4
+Dado um correntista
+Quando solicitar o saque no valor de R$35,00
+Então o caixa deve retornar a seguinte mensagem "Notas não disponíveis para esse valor"
