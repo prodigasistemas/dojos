@@ -16,4 +16,11 @@ public class CaixaEletronicoTest extends TestCase{
 		String saque = caixa.saque(80);
 		assertEquals(saque, "50,20,10,");
 	}
+	
+	@Test
+	public static void testSaque100() {
+		CaixaEletronico caixa = new CaixaEletronico();
+		String saque = caixa.saque(100);
+		assertEquals(saque, "100");
+	}
 }
